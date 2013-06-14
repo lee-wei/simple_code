@@ -8,7 +8,7 @@ void show_time(void)
 
 	gettimeofday(&time_val, NULL);
 
-	printf("time %ld:%ld\n", time_val.tv_sec, time_val.tv_usec);
+	printf("%s:%d time %ld:%ld\n", __FILE__, __LINE__, time_val.tv_sec, time_val.tv_usec);
 }
 
 int main(int argc, char *argv[])
