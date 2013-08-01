@@ -1,6 +1,6 @@
 #!/bin/sh
 
-while [1]
+while [ 1 ]
 do
 	iwconfig
 	sleep 1
